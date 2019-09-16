@@ -1,0 +1,16 @@
+.content{
+    height: 120px;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(43, 108, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content input{
+    width: 25%;
+    border-radius: 10px;
+    height: 35px;
+    text-align: center;
+    font-size: 25px;
+}

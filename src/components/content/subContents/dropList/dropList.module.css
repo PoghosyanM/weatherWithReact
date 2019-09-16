@@ -1,0 +1,21 @@
+.dropdownList{
+    border-radius: 15px;
+    margin: 5px;
+}
+.dropdownData{
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: repeat(8, 11.61%)
+}
+.dropdownList div{
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+}
+.dropdownList:nth-child(odd){
+    background-color: rgb(17, 71, 85)
+}
+.dropdownList:nth-child(even){
+    background-color: rgb(43, 108, 124)
+}
